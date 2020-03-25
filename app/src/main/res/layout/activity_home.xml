@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="10dp"
+    android:weightSum="10"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/camera">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="185sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:fontFamily="@font/marck_script"
+            android:text="Instagram"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="7sp"
+            android:src="@drawable/ic_chat_black_24dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
